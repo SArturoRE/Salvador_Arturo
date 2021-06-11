@@ -1,0 +1,23 @@
+{
+  "name": "Salvador_Arturo",
+  "version": "1.0.0",
+  "description": "Salvador_Arturo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SArturoRE/Salvador_Arturo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SArturoRE/Salvador_Arturo/issues"
+  },
+  "homepage": "https://github.com/SArturoRE/Salvador_Arturo#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.1"
+  }
+}
