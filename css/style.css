@@ -4,6 +4,7 @@ body{
     text-align: justify;
 
 }
+
 header{
     background-color: rgba(13, 55, 84, 1);
 }
@@ -19,4 +20,14 @@ header{
     height: 14%;
     width: 14%;
     border-radius: 100%;
+}
+
+#Logo{
+    border-radius: 100%;
+
+}
+.General{
+    background-image: url('../extras/Back.png')!impotan;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
