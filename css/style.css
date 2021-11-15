@@ -1,0 +1,22 @@
+body{
+    font-family: sans-serif;
+    color: #465967;
+    text-align: justify;
+
+}
+header{
+    background-color: rgba(13, 55, 84, 1);
+}
+
+.imagenes{
+    background-image: url('../extras/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    
+}
+.imagen_mia{
+    height: 14%;
+    width: 14%;
+    border-radius: 100%;
+}
