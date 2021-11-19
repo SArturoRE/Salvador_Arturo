@@ -17,17 +17,29 @@ header{
     
 }
 .imagen_mia{
+    margin: 1%;
     height: 14%;
     width: 14%;
-    border-radius: 100%;
+    border-radius: 30%;
 }
 
-#Logo{
-    border-radius: 100%;
+.Contenido{
 
-}
-.General{
-    background-image: url('../extras/Back.png')!impotan;
+    /*Agregaremos las indicaciones para las letras*/
+    font-family: sans-serif;
+    color: #FFFFFF;
+    text-align: justify;
+    /*----------------------------------------------*/
+    /*indicaciones sobre el background*/
+    background-image: url('../extras/Back2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    /*-----------------------------------------------*/
+
+    /*Modificaciones en general*/
+    padding-top: 0.9%;
+    padding-right: 2%;
+    padding-left: 1%;
+    padding-bottom: 1.09%;
+    /*--------------------------------------------*/
 }
