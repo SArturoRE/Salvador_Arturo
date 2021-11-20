@@ -20,13 +20,30 @@
   <!--Crearemos el menú que nos permitira navegar en la misma pagina (de momento)-->
     <header>   
       <!--Agregaremos un nav para crear un pequeño menú-->
-        <nav class="nav nav-pills flex-column flex-sm-row">
-          <a class="flex-sm-fill text-sm-center nav-link"><img src="../extras/SA.png" id="Logo"></a>
-          <a class="flex-sm-fill text-sm-center nav-link" href="#">¿Quien soy?</a>
-          <a class="flex-sm-fill text-sm-center nav-link" href="#">Mi formacion</a>
-          <a class="flex-sm-fill text-sm-center nav-link" href="#">Mis proyectos</a>
-        </nav>
+        <nav class="navbar navbar-dark   navbar-expand-md fixed-top">
+        <div class="container">
+          <a href="index.html" class="navbar-brand">
+            <img src="./extras/SA.png" class="Logo">
+          </a>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-principal"
+          aria-controls="menu-principal" aria-expanded="false" aria-label="Desplegar menu de navegacion">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu-principal">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a href="#" class="nav-link ">Nosotros</a></li>
+            <li class="nav-item"><a href="#" class="nav-link ">Servicio</a></li>
+            <li class="nav-item"><a href="#" class="nav-link ">Portafolio</a></li>
+            <li class="nav-item"><a href="#" class="nav-link ">Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
     </header>
+    <!--Agregamos los saltos de linea para separar la foto de la barra de menú-->
+    <br><br><br><br><br><br>
 
       <div class="imagenes">
         <img src="./extras/Yo.jpg" class="imagen_mia">
@@ -34,76 +51,23 @@
 
       <div class="Contenido">
         <p>
-          Me llamo Salvador Arturo Ramírez Escamilla. <br>
+          <h3 class="Nombre">Me llamo Salvador Arturo Ramírez Escamilla.</h3>  <br>
           Soy pasante de la carrera "Ingenieria en ciencias de la computacion" impartida en la Benemerita Universidad Autonoma de Puebla.<br>
           En el año 2015 tuve mi primer contacto con la programacion como tal, ya que solo habia tenido contacto con trabajos de logica en excel esto debido a la formacion academica que lleve desde la primaria en talleres de computacion los cuales impartian en mis instituciones educativas. 
           <br>Me interesa demaciado el desarrollo web asi como el campo de la realidad virtual y aumentada, tambien tengo un gran interes por desarrollo movil y por UX/UI. <br>
           Actualmente vivo en puebla capital.
-          
         </p>
       </div>
+      
+      <div class="fixed-bottom" id="Puntos">...</div>
 
-      <!--Agregaremos un apartado para poner la formacion academica con la que cuento-->
-  <section class="proyectos py-4 ">
-    <div class="container text-primary "id="seccult">
-      <h1 class="display-4 font-weight-bold text-center pb-4 ">Ultimos Proyectos</h1>
-      <div class="row text-md-center" >
-        <article class="col-12 col-md-6  col-lg-4 mb-4 mt-4 mb-lg-0">
-          <div class="card">
-                    <!--implementaremos el componente car, que nos permite:
-            nos permite crear cajas-->
-            <img src="imagenes/proyecto1.png" class="card-img-top h-100" alt="proyecto-2" data-toggle="collapse" data-target="#demo1">
-            <div id="demo1" class="collapse text-dark">
-                    lorem ipsum dolor text....
-                </div>
-          </div>
-        </article>
-        <article class="col-12 col-md-6 col-lg-4 mb-4 mt-4 mb-lg-0">
-            <div class="card">
-              <img src="imagenes/proyecto2.png" class="card-img-top h-100" alt="proyecto-2" data-toggle="collapse" data-target="#demo2">
-              <div id="demo2" class="collapse text-dark">
-                    orem ipsum dolor text....
-                </div>
-            </div>
-          </article>
-          <article class="col-12 col-md-6 col-lg-4 mb-4 mt-4 mb-lg-0">
-              <div class="card">
-                <img src="imagenes/proyecto3.png" class="card-img-top h-100" alt="proyecto-2" data-toggle="collapse" data-target="#demo3">
-                <div id="demo3" class="collapse text-dark">
-                    orem ipsum dolor text....
-                </div>
-              </div>
-            </article>
-            <article class="col-12 col-md-6 col-lg-4 mb-4 mt-4 mb-lg-0">
-                <div class="card">
-                  <img src="imagenes/proyecto4.png" class="card-img-top h-100" alt="proyecto-2" data-toggle="collapse" data-target="#demo4">
-                  <div id="demo4" class="collapse text-dark">
-                    orem ipsum dolor text....
-                </div>
-                </div>
-              </article>
-              <article class="col-12 col-md-6 col-lg-4 mb-4 mt-4 mb-lg-0">
-                  <div class="card">
-                    <img src="imagenes/proyecto2.png" class="card-img-top h-100" alt="proyecto-2" data-toggle="collapse" data-target="#demo5">
-                    <div id="demo5" class="collapse text-dark">
-                    orem ipsum dolor text....
-                </div>
-                  </div>
-                </article>
-                <article class="col-12 col-md-6 col-lg-4 mb-4 mt-4 mb-lg-0">
-                    <div class="card">
-                      <img src="imagenes/proyecto1.png" class="card-img-top h-100" alt="proyecto-2" data-toggle="collapse" data-target="#demo6">
-                      <div id="demo6" class="collapse text-dark">
-                    orem ipsum dolor text....
-                </div>
-                </div>
-      </div>
-    </div>
-  </section>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 
-  </body>
+</body>
     
-
-
 </html>
  

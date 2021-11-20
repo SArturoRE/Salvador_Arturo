@@ -1,26 +1,27 @@
+
 body{
+
+    /*indicaciones sobre el background*/
+    background-image: url('../extras/fondo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*-----------------------------------------------*/
     font-family: sans-serif;
     color: #465967;
     text-align: justify;
 
 }
 
-header{
-    background-color: rgba(13, 55, 84, 1);
-}
 
 .imagenes{
-    background-image: url('../extras/fondo.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+
     text-align: center;
     
 }
 .imagen_mia{
-    margin: 1%;
-    height: 14%;
-    width: 14%;
-    border-radius: 30%;
+    height: 25%;
+    width: 25%;
+    border-radius: 40%;
 }
 
 .Contenido{
@@ -28,13 +29,8 @@ header{
     /*Agregaremos las indicaciones para las letras*/
     font-family: sans-serif;
     color: #FFFFFF;
-    text-align: justify;
+    text-align: justify-all;
     /*----------------------------------------------*/
-    /*indicaciones sobre el background*/
-    background-image: url('../extras/Back2.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    /*-----------------------------------------------*/
 
     /*Modificaciones en general*/
     padding-top: 0.9%;
@@ -42,4 +38,14 @@ header{
     padding-left: 1%;
     padding-bottom: 1.09%;
     /*--------------------------------------------*/
+}
+
+.Logo{
+    border-radius: 50%;
+    height: 15%;
+    width: 15%;
+}
+
+#Puntos{
+    color: #FFFFFF;
 }
